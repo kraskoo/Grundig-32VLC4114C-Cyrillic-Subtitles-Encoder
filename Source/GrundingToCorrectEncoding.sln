@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrundingToCorrectEncoding.Application", "GrundingToCorrectEncoding.Application\GrundingToCorrectEncoding.Application.csproj", "{B68EDFDF-79C8-4D50-90EA-0C0A73ADF408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B68EDFDF-79C8-4D50-90EA-0C0A73ADF408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68EDFDF-79C8-4D50-90EA-0C0A73ADF408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68EDFDF-79C8-4D50-90EA-0C0A73ADF408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68EDFDF-79C8-4D50-90EA-0C0A73ADF408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {587CA7FB-8B4D-4E3A-AF22-A552D0668357}
+	EndGlobalSection
+EndGlobal
