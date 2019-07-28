@@ -1,0 +1,9 @@
+﻿<Application x:Class="Grundig_32VLC4114C_Cyrillic_Subtitles_Encoder.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Grundig_32VLC4114C_Cyrillic_Subtitles_Encoder"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grundig-32VLC4114C-Cyrillic-Subtitles-Encoder", "Grundig-32VLC4114C-Cyrillic-Subtitles-Encoder\Grundig-32VLC4114C-Cyrillic-Subtitles-Encoder.csproj", "{A098F8C3-66FA-4B3C-A21C-4CBA30B22A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A098F8C3-66FA-4B3C-A21C-4CBA30B22A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A098F8C3-66FA-4B3C-A21C-4CBA30B22A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A098F8C3-66FA-4B3C-A21C-4CBA30B22A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A098F8C3-66FA-4B3C-A21C-4CBA30B22A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760ED193-E64D-4BB0-BDBE-FA9326966B89}
+	EndGlobalSection
+EndGlobal

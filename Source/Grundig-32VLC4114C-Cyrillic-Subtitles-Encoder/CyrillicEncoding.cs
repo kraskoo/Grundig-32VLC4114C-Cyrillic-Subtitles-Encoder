@@ -1,4 +1,4 @@
-﻿namespace GrundingToCorrectEncoding.Application
+﻿namespace Grundig_32VLC4114C_Cyrillic_Subtitles_Encoder
 {
     using System.Text;
 
@@ -8,8 +8,12 @@
 
         public CyrillicEncoding()
         {
-            this.currentEncoding = Encoding.Default;
+            this.currentEncoding = Default;
         }
+
+        public override string BodyName => this.currentEncoding.BodyName;
+
+        public override string HeaderName => UTF8.HeaderName;
 
         public override int GetByteCount(char[] chars, int index, int count)
         {
@@ -40,9 +44,5 @@
         {
             return this.currentEncoding.GetMaxCharCount(byteCount);
         }
-
-        public override string HeaderName => Encoding.UTF8.HeaderName;
-
-        public override string BodyName => Encoding.Default.BodyName;
     }
 }

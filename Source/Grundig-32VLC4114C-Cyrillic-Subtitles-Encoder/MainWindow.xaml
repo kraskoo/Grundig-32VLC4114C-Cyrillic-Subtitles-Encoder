@@ -1,0 +1,21 @@
+﻿<Window x:Class="Grundig_32VLC4114C_Cyrillic_Subtitles_Encoder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Grundig-32VLC4114C-Cyrillic-Subtitles-Encoder" Height="338" Width="519" ResizeMode="NoResize">
+    <WrapPanel Margin="30">
+        <Button Click="OnOpenFileClick" Width="80">Open File</Button>
+        <Label Name="StatusLabel" Width="236" Background="Yellow" />
+        <Label Content="Input file encoding:" Width="130" Margin="0,10,8,10" />
+        <CheckBox Checked="OnCheckBoxChange" Unchecked="OnCheckBoxChange" IsChecked="False" VerticalAlignment="Center">All Encodings</CheckBox>
+        <ComboBox Name="ComboBox" MinWidth="230" SelectionChanged="OnSelectionChange" />
+        <Label FontSize="9" FontWeight="Bold" FontStyle="Italic" Foreground="Red">*(Currently selected encoding should be work correctly.</Label>
+        <Label FontSize="9" FontWeight="Bold" FontStyle="Italic" Foreground="Red">But in case you don't see cyrillic symbols after converting, probably you need to try different encoding</Label>
+        <Label FontSize="9" FontWeight="Bold" FontStyle="Italic" Foreground="Red" Margin="0,0,0,20" Width="314">with original copy of your file.)</Label>
+        <CheckBox Name="OpenAfterConvert" IsChecked="True" Margin="0,0,20,0" VerticalAlignment="Center">Open after convert</CheckBox>
+        <Label FontSize="9" FontWeight="Bold" FontStyle="Italic" Foreground="Red" Width="374">*(This option will work only if you have Notepad++ installed on your system)</Label>
+        <Button Name="ConvertButton" Click="OnConvertClick" Width="80" IsEnabled="False">Convert</Button>
+    </WrapPanel>
+</Window>
